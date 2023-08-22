@@ -1,0 +1,36 @@
+h2.titulo2{
+    color:rgb(18, 207, 207);/*color del titulo2*/
+}
+h2.titulo3{
+    color:blue;/*color del titulo3*/
+}
+h2.titulo4{
+    color:blueviolet;/*color del titulo4*/
+}
+body { 
+    background-color: #b7e0f0;
+    font-family: 'Times New Roman', Times, serif;/*Selecciona tipo de fuente*/
+}
+header {
+    background-color: #97ebacea;/*color de fondo*/
+    text-align: center; /*alineacion del texto*/
+    padding: 10px; /*Alto del encabezado*/
+    color: tomato;/*color del texto*/
+}
+nav { 
+    padding: 5px;/*alto*/
+}
+nav a { 
+    color: #4f1ed5;/*color del link*/
+}
+nav a:hover { color: #666; }/*cambio de color al acercarce al link*/
+
+main { padding: 20px; }
+article { margin-bottom: 10px; }/*separacion entre tipos de datos*/
+article h2 {
+    border-bottom: 2px solid #c5c0c0;/*linea separadora*/
+    padding-bottom: 5px;
+}
+article ul {list-style: none; padding: 10px; }/*saca los puntos a los items*/
+article li { margin-bottom: 5px; }/*separacion entre líneas*/
+article p { margin: 10px; }/*margen de parrafo*/
